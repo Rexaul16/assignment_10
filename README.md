@@ -1,7 +1,12 @@
+/*
 steps to implement:
+
 1: Query the user for a number n (type size_t) and read it.
+
 2: Generate (n) random integers, each in the range from 1 to 1000, and as you generate those numbers insert them into     a linked list. Use the function rand() from <cstdlib> and seed with srand(time(NULL)).
+
 3: Print out this unsorted linked list.
+
 4: Sort the linked list. 
   
    You must sort by moving nodes, i.e. you are not permitted to change the data field of any node.
@@ -15,3 +20,4 @@ steps to implement:
    Then marker_ptr is updated. The iteration repeats untill all nodes are in sorted orter
    
 5: Finally print out the sorted linked list.
+*/
